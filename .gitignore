@@ -1,0 +1,7 @@
+*.bak
+*.swp
+*.swo
+maps/*.prt
+maps/*.srf
+maps/*.autosave.map
+
