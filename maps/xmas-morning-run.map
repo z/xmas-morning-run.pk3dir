@@ -7,6 +7,7 @@
 "author" "(-z- and SquigglePuff Jr.)"
 "license" "GNU GPL version 2"
 "_floodlight" "240 240 255 1024 42"
+"_blocksize" "4096 4096 4096"
 // brush 0
 {
 brushDef
