@@ -48,6 +48,21 @@ textures/xmas-morning-run/non-exist
 }
 
 //////// SKYBOXES ////////
+textures/xmas-morning-run/xmasroom
+{
+    qer_editorimage env/xmas-morning-run/xmasroom/xmasroom_ft.tga
+    
+    surfaceparm noimpact
+    surfaceparm nolightmap
+    surfaceparm nomarks
+    surfaceparm sky
+    
+    //q3map_sun <red> <green> <blue> <intensity> <degrees> <elevation>
+    q3map_sun 0.9 0.9 0.9 500 180 22.5
+    q3map_skylight 200 4
+    skyparms env/xmas-morning-run/xmasroom/xmasroom - -
+}
+
 textures/xmas-morning-run/snowscape
 {
     qer_editorimage env/xmas-morning-run/snowscape/snowscape_ft.tga
@@ -73,7 +88,7 @@ textures/xmas-morning-run/snowforest
     surfaceparm sky
     
     //q3map_sun <red> <green> <blue> <intensity> <degrees> <elevation>
-    q3map_sun 0.9 0.9 0.9 1500 180 22.5
+    q3map_sun 0.9 0.9 0.9 500 180 22.5
     q3map_skylight 200 4
     skyparms env/xmas-morning-run/snowforest/snowforest - -
 }
